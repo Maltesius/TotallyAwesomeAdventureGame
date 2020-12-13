@@ -13,9 +13,8 @@ public class Game {
     private Font titleFont = new Font("Times New Roman", Font.BOLD, 70), normalFont = new Font("Times New Roman", Font.BOLD, 30);
     private JButton startButton,quitButton, choice1, choice2, choice3,choice4;
     private JTextArea mainTextArea;
-
-    TitleScreenHandler tsHandler = new TitleScreenHandler();
-    QuitHandler qHandler = new QuitHandler();
+    private TitleScreenHandler tsHandler = new TitleScreenHandler();
+    private QuitHandler qHandler = new QuitHandler();
 
     public static void main(String[] args) {
         new Game();

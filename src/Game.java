@@ -3,6 +3,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * A game class for creating our game window and general functionality
+ *
+ * @author Anders Malta Jakobsen
+ * @version 13-12-2020
+ */
+
 public class Game {
 
     private JFrame gameWindow;
@@ -25,7 +32,7 @@ public class Game {
      */
     public Game() {
 
-        myLabel = new JLabel(backgroundImage);                          //Used for the idea of having a background image instead of a color. WIP
+        myLabel = new JLabel(backgroundImage);                          //Used for the idea of having a background image instead of a color.
         myLabel.setSize(1920,1080);
 
         gameWindow = new JFrame("Totally Awesome Adventure Game");  //Creates the window carrying the game
